@@ -2,7 +2,7 @@ import argparse
 import os
 import logging
 
-logging.basicConfig(format='[%(asctime)s][%(levelname)s][%(name)s] - %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='[%(asctime)s][%(levelname)s][%(name)s] - %(message)s', level=logging.INFO)
 logger = logging.getLogger("launch")
 # Set up logging
 to_skip = ["urllib3", "PIL", "accelerate", "matplotlib", "h5py", "xformers", "tensorflow", "passlib", "asyncio",
